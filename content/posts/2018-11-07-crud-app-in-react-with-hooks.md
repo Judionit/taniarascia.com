@@ -164,6 +164,7 @@ The first thing we'll do is make some sample data and a table to display it, for
 import React from 'react'
 
 const UserTable = () => (
+return(
   <table>
     <thead>
       <tr>
@@ -183,6 +184,7 @@ const UserTable = () => (
       </tr>
     </tbody>
   </table>
+  );
 )
 
 export default UserTable
